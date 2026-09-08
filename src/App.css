@@ -1,0 +1,47 @@
+.box-container {
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Data boxes: Hover background black & text white */
+.hover-box {
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.hover-box:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.hover-box:hover h1,
+.hover-box:hover h2,
+.hover-box:hover h3,
+.hover-box:hover h4,
+.hover-box:hover h5,
+.hover-box:hover h6,
+.hover-box:hover p,
+.hover-box:hover span,
+.hover-box:hover div,
+.hover-box:hover label,
+.hover-box:hover small {
+  color: #ffffff !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Standard Action Button Hover */
+.btn-outline-dark {
+  border: 1px solid #000000 !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.btn-outline-dark:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
